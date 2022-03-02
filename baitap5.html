@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai Tap 5</title>
+</head>
+<body>
+    <script>
+    // ** Tính tổng 2 ký số
+    // * Đầu vào
+    // - nhập số n 
+    // - 
+    // * Xử lý
+    // - Tách số hàng đơn vị: n%10
+    // - Tách số hàng chục: Math.floor(n/10)
+    // - 
+    // * Đầu ra 
+    // - Trả kết quả 
+
+    alert("Tính tổng 2 ký số, Nhập số có hàng chục và hàng đơn vị. Nếu không sẽ bị lỗi")
+    var n = parseInt(prompt("Nhập 2 ký ở đây:"));
+    var hangDV = n % 10;
+    var hangChuc = Math.floor(n / 10);
+    // var hangTram = Math.floor(n / 100);
+    var tongKySo = hangDV + hangChuc;
+    document.write("Tổng 2 ký số là: " + tongKySo)
+    </script>
+</body>
+</html>

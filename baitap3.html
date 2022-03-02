@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai Tap 3</title>
+</head>
+<body>
+    <script>
+    // ** Tính chuyển đổi ngoại tệ
+    // * Đầu vào
+    // - nhập số USD
+    // 
+    // * Xử lý
+    // - Gán giá trị con số mà user nhập vào 
+    // - Nhân với giá trị 1USD = 23.000VND
+    // - 
+    // 
+    // * Đầu ra 
+    // - Trả kết quả VND
+
+        alert("Chuyển Đổi Ngoại Tệ từ USD về VND");
+        var vnd = 23500;
+        var usd = parseFloat(prompt("Nhập USD để chuyển về VND: "));
+        var convert = vnd * usd;
+
+        document.write("Chuyển Đổi \t" +usd+ "$ :<br>= " +convert+ " VND");
+
+    </script>
+</body>
+</html>

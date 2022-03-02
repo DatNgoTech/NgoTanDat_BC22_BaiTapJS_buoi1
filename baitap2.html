@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai Tap 2</title>
+</head>
+<body>
+    <script>
+    // ** Tính giá trị trung bình của tổng 5 số
+    // * Đầu vào
+    // - nhập 5 số
+    // 
+    // * Xử lý
+    // - Gán giá trị con số mà user nhập vào
+    // - tổng 5 con số
+    // - chia 5 cho tổng 5 con số để lấy giá trị trung bình
+    // 
+    // * Đầu ra 
+    // - show kết quả
+
+    alert("Tính giá trị trung bình của 5 con số.");
+    var number1 = parseInt(prompt("Số thứ nhất:"));
+    var number2 = parseInt(prompt("Số thứ hai:"));
+    var number3 = parseInt(prompt("Số thứ ba:"));
+    var number4 = parseInt(prompt("Số thứ tư:"));
+    var number5 = parseInt(prompt("Số thứ năm:"));
+    
+    var tong = number1 + number2 + number3 + number4 + number5;
+    var trungBinh = tong/5;
+    document.write("Tổng của 5 số là \t "+tong);
+    document.write("<br>Trung bình của tổng là \t "+trungBinh);
+
+    </script>
+</body>
+</html>
